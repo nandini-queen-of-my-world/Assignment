@@ -27,7 +27,7 @@ To start the backend, use the following command:
 npm run start
 ```
 
-## Security Considerations
+## Bad Store Vulnerabilities
 
 ### SQL Injection
 
