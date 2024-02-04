@@ -1,0 +1,11 @@
+1. Create a functional micro-p2p chat app using MERN stack
+2. Setup Badstore on your machine
+3. Create 10 test cases for different pages of the BadStore web site using Selenium (JavaScript)
+4. Identify 5 vulnerabilities in the Badstore web site
+5. Fix the vulnerabilities in the Badstore web site
+
+1-Done (p2p chat)
+2-Done
+3-Done (badstore - test cases)
+4-Done
+5-Done
