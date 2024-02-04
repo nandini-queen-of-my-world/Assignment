@@ -1,7 +1,7 @@
 To format your README file, you can use Markdown syntax to make it more readable. Here's an example of how you might structure it:
 
 ```markdown
-# Project Name
+# p2p Chat App
 
 ## Installation
 
